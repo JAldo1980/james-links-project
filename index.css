@@ -81,10 +81,12 @@ select {
 
 :root {
   --background: #98dbc6;
+  --color-0: #9ea5b9;
   --color-1: #c3dffd;
   --color-2: #a5dfca;
   --color-3: #feb3b3;
   --color-4: #f4a82e;
+  --color-5: #f8db00;
   --text-color: #fff;
 }
 
@@ -189,6 +191,10 @@ header {
     rgba(0, 0, 0, 1) 0px 8px 16px -10px;
 }
 
+.color-0 {
+  background-color: var(--color-0);
+}
+
 .color-1 {
   background-color: var(--color-1);
 }
@@ -200,6 +206,10 @@ header {
 }
 .color-4 {
   background-color: var(--color-4);
+}
+
+.color-5 {
+  background-color: var(--color-5);
 }
 
 .spotify-playlist-box {
